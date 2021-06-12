@@ -1,0 +1,29 @@
+{
+  "name": "tilushope",
+  "version": "1.0.0",
+  "description": "this is tilushope backend.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "express"
+  ],
+  "author": "subham kumar thakur",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^15.12.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.12.13"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.12",
+    "@types/module-alias": "^2.0.0",
+    "@types/mongoose": "^5.11.97"
+  }
+}
